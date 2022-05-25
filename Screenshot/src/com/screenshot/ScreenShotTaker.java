@@ -18,6 +18,7 @@ public class ScreenShotTaker
 			BufferedImage screenshot=robot.createScreenCapture(rect);
 			ImageIO.write(screenshot, "JPG", new File("C:\\Users\\Admin\\Desktop\\screenshot.jpg"));
 			System.out.println(11);
+			System.out.println();
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
