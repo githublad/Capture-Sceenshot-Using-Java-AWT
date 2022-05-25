@@ -8,15 +8,16 @@ import java.io.File;
 
 import javax.imageio.ImageIO;
 
-public class ScreenShotTaker 
+public class ScreenShotTaker
 {
-	public static void main(String[] args) 
+	public static void main(String[] args)
 	{
 		try {
 			Robot robot=new Robot();
 			Rectangle rect= new Rectangle(Toolkit.getDefaultToolkit().getScreenSize());
 			BufferedImage screenshot=robot.createScreenCapture(rect);
 			ImageIO.write(screenshot, "JPG", new File("C:\\Users\\Admin\\Desktop\\screenshot.jpg"));
+			System.out.println(11);
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
