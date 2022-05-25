@@ -6,6 +6,6 @@ package com.screenshot;
  */
 public class Twst {
     public static void main(String[] args) {
-        System.out.println("hot");
+        System.out.println("hot111");
     }
 }
